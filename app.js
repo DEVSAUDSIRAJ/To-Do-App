@@ -10,7 +10,7 @@ function addTodo(){
 // delbtn 
     var delBtn = document.createElement("button")
     var delText= document.createTextNode("delete")
-   delBtn.setAttribute("class","btn btn-danger ml-5")
+   delBtn.setAttribute("class","btn btn-danger ml-5 ")
    delBtn.setAttribute("onclick","deleteItem(this)")
     delBtn.appendChild(delText)
 // craete edit btn 
