@@ -42,4 +42,4 @@ function editItem(e){
    var editValue= prompt("Enter edit value",val)
     console.log(e.parentNode.firstChild)
     e.parentNode.firstChild.nodeValue=editValue
-}
+}     
